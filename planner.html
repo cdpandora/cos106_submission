@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Planner | My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">My<span>Portfolio</span></div>
+        <button class="menu-btn" id="menuBtn">&#9776;</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html" class="active">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section>
+      <h1>Academic Planner</h1>
+      <p>Keep track of assignments, tests and other school tasks. Tasks are saved in your browser
+        so they will still be here when you come back.</p>
+    </section>
+
+    <section>
+      <div class="card">
+        <form class="task-form" id="taskForm">
+          <input type="text" id="taskInput" placeholder="e.g. Submit COS 106 project">
+          <select id="taskCourse">
+            <option value="General">General</option>
+            <option value="COS 106">COS 106</option>
+            <option value="MTH 101">MTH 101</option>
+            <option value="GST 101">GST 101</option>
+            <option value="PHY 101">PHY 101</option>
+          </select>
+          <input type="date" id="taskDate">
+          <button type="submit" class="btn">Add Task</button>
+        </form>
+
+        <p class="task-stats" id="taskStats">No tasks yet.</p>
+
+        <ul id="taskList"></ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Justin Nicholas. COS 106 Term Project.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/planner.js"></script>
+</body>
+
+</html>

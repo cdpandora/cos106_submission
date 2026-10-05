@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">My<span>Portfolio</span></div>
+        <button class="menu-btn" id="menuBtn">&#9776;</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="planner.html">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section>
+      <h1>My Projects</h1>
+      <p>Some of the things I have worked on so far. Most of them are small school projects but I'm
+        learning something new with each one.</p>
+    </section>
+
+    <section>
+      <div class="grid-3">
+
+        <article class="project">
+          <img src="images/project1.svg" alt="Screenshot of the calculator app">
+          <div class="project-body">
+            <h3>Simple Calculator</h3>
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            <p>A basic calculator that runs in the browser. It supports addition, subtraction,
+              multiplication and division. This was my first JavaScript project.</p>
+            <a href="https://github.com/" target="_blank">View on GitHub</a> |
+            <a href="#" onclick="alert('Live demo coming soon!'); return false;">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="images/project2.svg" alt="Screenshot of the student grade system">
+          <div class="project-body">
+            <h3>Student Grade Calculator</h3>
+            <span class="tag">Python</span>
+            <p>A command line program that takes a student's scores for different courses and
+              calculates the GPA. It uses the 5 point grading system used in Nigerian universities.</p>
+            <a href="https://github.com/" target="_blank">View on GitHub</a> |
+            <a href="#" onclick="alert('Live demo coming soon!'); return false;">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="images/project3.svg" alt="Screenshot of the weather website">
+          <div class="project-body">
+            <h3>Weather Checker</h3>
+            <span class="tag">HTML</span><span class="tag">JavaScript</span><span class="tag">API</span>
+            <p>A small web page where you type in a city name and it shows the current weather
+              using a free weather API. Still working on making the design better.</p>
+            <a href="https://github.com/" target="_blank">View on GitHub</a> |
+            <a href="#" onclick="alert('Live demo coming soon!'); return false;">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="images/project4.svg" alt="Screenshot of this portfolio website">
+          <div class="project-body">
+            <h3>This Portfolio Website</h3>
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            <p>The website you are looking at right now. Built for my COS 106 term project with
+              a responsive layout, an academic planner and a contact form with validation.</p>
+            <a href="https://github.com/" target="_blank">View on GitHub</a> |
+            <a href="index.html">Live Demo</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section>
+      <h2>Project Summary</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Technologies</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Simple Calculator</td>
+            <td>HTML, CSS, JavaScript</td>
+            <td>Completed</td>
+          </tr>
+          <tr>
+            <td>Student Grade Calculator</td>
+            <td>Python</td>
+            <td>Completed</td>
+          </tr>
+          <tr>
+            <td>Weather Checker</td>
+            <td>HTML, JavaScript, API</td>
+            <td>In progress</td>
+          </tr>
+          <tr>
+            <td>Portfolio Website</td>
+            <td>HTML, CSS, JavaScript</td>
+            <td>Completed</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Justin Nicholas. COS 106 Term Project.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
